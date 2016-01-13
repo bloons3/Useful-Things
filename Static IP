@@ -1,0 +1,30 @@
+/etc/network/interfaces
+
+  GNU nano 2.2.6                                          File: /etc/network/interfaces
+
+auto lo
+iface lo inet loopback
+
+
+#My IP description
+# IPv4 address
+iface eth0 inet static
+        address 10.0.0.20
+        netmask 255.255.255.0
+        network 10.0.0.0
+        broadcast 10.0.0.255
+        gateway 10.0.0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
